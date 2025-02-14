@@ -1,3 +1,13 @@
 /* Nova Field CSS */
 
+.mo-text-ai-field-container{
+    display: flex;
+    gap: 10px;
+}
+
+.mo-text-ai-field-container .mo-text-ai-field-btn{
+    font-weight: bold;
+    color: blue;
+}
+
 
