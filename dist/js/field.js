@@ -86,7 +86,7 @@ function _asyncToGenerator(n) { return function () { var t = this, e = arguments
             case 8:
               _context.prev = 8;
               _context.next = 11;
-              return fetch("http://csv.test/api/test", {
+              return fetch("/api/test", {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json' // تأكد من تحديد نوع البيانات

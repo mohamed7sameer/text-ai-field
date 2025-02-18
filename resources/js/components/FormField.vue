@@ -73,7 +73,7 @@ export default {
 
       try {
         
-        const response = await fetch("http://csv.test/api/test",{
+        const response = await fetch("/api/test",{
           method: 'POST',
           headers: {
             'Content-Type': 'application/json' // تأكد من تحديد نوع البيانات
