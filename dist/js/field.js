@@ -137,9 +137,9 @@ function _asyncToGenerator(n) { return function () { var t = this, e = arguments
       var useDarkMode = false;
       tinymce.init({
         "selector": "#" + this.field.attribute,
-        plugins: 'searchreplace autosave save code fullscreen pagebreak advlist lists ',
+        plugins: 'searchreplace autosave save code fullscreen pagebreak nonbreaking advlist lists directionality visualblocks wordcount ',
         menubar: '',
-        toolbar: "undo redo | blocks bold align numlist bullist code fullscreen pagebreak customButton  ",
+        toolbar: "undo redo blocks fontsize bold align numlist bullist code fullscreen pagebreak forecolor backcolor removeformat  customButton  ",
         height: 600,
         setup: function setup(editor) {
           editor.ui.registry.addButton('customButton', {
